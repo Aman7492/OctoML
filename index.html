@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lucky Spin | Slot Machine</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="app">
+    <section class="card">
+      <div class="topbar">
+        <div>
+          <p class="eyebrow">PYTHON SLOT MACHINE</p>
+          <h1>Lucky Spin</h1>
+        </div>
+        <div class="balance">
+          <span>Balance</span>
+          <strong id="balance">$0</strong>
+        </div>
+      </div>
+
+      <div class="machine">
+        <div class="reels" id="reels">
+          <div class="reel">🍒</div><div class="reel">7️⃣</div><div class="reel">💎</div>
+          <div class="reel">⭐</div><div class="reel">🍀</div><div class="reel">🍒</div>
+          <div class="reel">💎</div><div class="reel">⭐</div><div class="reel">7️⃣</div>
+        </div>
+        <div class="win-message" id="message">Deposit money to start playing.</div>
+      </div>
+
+      <div class="controls">
+        <label>
+          Lines
+          <select id="lines">
+            <option value="1">1 Line</option>
+            <option value="2">2 Lines</option>
+            <option value="3" selected>3 Lines</option>
+          </select>
+        </label>
+
+        <label>
+          Bet / Line
+          <input id="bet" type="number" min="1" max="1000" value="10">
+        </label>
+
+        <button id="spinBtn" class="spin">SPIN</button>
+        <button id="depositBtn" class="deposit">DEPOSIT</button>
+      </div>
+
+      <div class="stats">
+        <div><span>Total Bet</span><b id="totalBet">$0</b></div>
+        <div><span>Last Win</span><b id="lastWin">$0</b></div>
+        <div><span>Winning Lines</span><b id="winningLines">—</b></div>
+      </div>
+
+      <p class="hint">Educational project • No real money involved</p>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
