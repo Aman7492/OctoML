@@ -1,13 +1,12 @@
-Python Slot Machine
+OctoML – Slot Machine
 
-A simple command-line Slot Machine game built with Python for beginners. The project allows users to deposit money, choose betting lines, place bets, spin the machine, and calculate winnings based on matching symbols. It uses Python concepts such as functions, loops, dictionaries, lists, conditions, user input, randomization, and input validation.
+OctoML is a beginner-friendly Python Slot Machine project with a modern web frontend. The project allows users to deposit money, select betting lines, place bets, spin the slot machine, and calculate winnings based on matching symbols. The frontend is built using HTML, CSS, and JavaScript with a responsive and interactive design. The Python backend contains the core slot machine logic, including random symbol generation, balance management, betting validation, and winning calculation.
 
-Features
-Deposit money
-Choose betting lines
-Place bets
-Generate random symbols
-Check winning lines
-Calculate winnings
-Display balance
-Quit anytime
+Technologies
+Python
+HTML
+CSS
+JavaScript
+Run
+
+Open frontend/index.html using VS Code Live Server.
